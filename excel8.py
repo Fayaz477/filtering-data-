@@ -3,7 +3,7 @@ from openpyxl import Workbook
 wb = Workbook()
 sheet = wb.active
 
-
+#For changing column name 
 sheet['A1'] = "StudentName"
 sheet['B1'] = "Mark"
 sheet['C1'] = "Status"
